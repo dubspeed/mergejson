@@ -1,0 +1,17 @@
+{
+    "name": "mergejson",
+    "license": "Apache",
+    "tags": [
+        "utility",
+        "json"
+    ],
+    "classPath": "mergejson",
+    "description": "Merge JSON data together, using a simple set of rules.",
+    "contributors": [
+        "dubspeed"
+    ],
+    "releasenote": "Initial release",
+    "version": "1.0.0",
+    "url": "https://github.com/dubspeed/mergejson",
+    "dependencies": {}
+}
