@@ -18,6 +18,12 @@ Whenever an existing key is encountered:
 
     {a: [1,2,3]} && {a: [4,5,6]} => {a: [1,2,3,4,5,6]}
 
+    * *Note* This also goes for top-level arrays:
+
+    [{a: 1}, {b: 2}] && [{a: 2}, {b: 3}] => [{a: 1}, {b: 2}, {a: 2}, {b: 3}]
+
+    A positional combination of objects inside an array does not happen.
+
 * simple types (int, string, float, bool) are *overwritten*:
 
     {a: 3} && {a: 1} => {a:1}
