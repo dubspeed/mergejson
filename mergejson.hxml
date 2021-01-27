@@ -9,5 +9,4 @@ MergeJson
 -cp tests
 --library buddy
 --debug
--x tests.MergeRulesTest
-
+-x tests.TestsMain
