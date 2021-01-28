@@ -10,8 +10,8 @@
     "contributors": [
         "dubspeed"
     ],
-    "releasenote": "Initial release",
-    "version": "1.0.0",
+    "releasenote": "Added custom merge rules to the merge function.",
+    "version": "1.1.0",
     "url": "https://github.com/dubspeed/mergejson",
     "dependencies": {}
 }

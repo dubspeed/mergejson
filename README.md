@@ -39,11 +39,11 @@ Whenever an existing key is encountered:
 
 The merge function supports an optional third argument which provides a callback in the form of:
 
-    ``haxe
-            var f = (key:String, leftVal:Dynamic, rightVal:Dynamic) -> {
-                return leftVal; // returning null here executes the default rule;
-            };
-    ``` 
+```haxe
+        var f = (key:String, leftVal:Dynamic, rightVal:Dynamic) -> {
+            return leftVal; // returning null here executes the default rule;
+        };
+``` 
 
 returning null in the callback will trigger the default rules to apply (see above), any other value will the merge result for that key.
 
