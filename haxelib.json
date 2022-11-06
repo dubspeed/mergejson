@@ -11,7 +11,7 @@
         "dubspeed"
     ],
     "releasenote": "Added custom merge rules to the merge function.",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "url": "https://github.com/dubspeed/mergejson",
     "dependencies": {}
 }
