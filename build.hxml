@@ -1,0 +1,5 @@
+# JS - lib only 
+-cp mergejson
+MergeJson
+-js build/mergejson.js
+
